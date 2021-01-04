@@ -43,7 +43,7 @@ def callback():
 
 @handler.add(FollowEvent)
 def handle_follow(event):
-    print(event.message)
+    print(event)
     with open('test.json', 'r') as f:
         bubble_flex_send_message = FlexSendMessage.new_from_json_dict(
             json.load(f))
