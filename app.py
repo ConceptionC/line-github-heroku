@@ -46,12 +46,13 @@ def handle_follow(event):
     print(event)
     with open('./test.json', 'r', encoding='utf-8') as f:
         json_dict = json.load(f)
-        bubble_flex_send_message = FlexSendMessage.new_from_json_dict(
-            json_dict)
-
+        flex_message = FlexSendMessage(
+            alt_text='hello',
+            contents=CarouselContainer.new_from_json_dict(json_dict)
+        )
         line_bot_api.reply_message(
             event.reply_token,
-            bubble_flex_send_message
+            flex_message
         )
 
 
