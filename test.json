@@ -37,15 +37,19 @@
               "type": "uri",
               "label": "聯絡電話",
               "uri": "tel:+886905870119"
-            }
+            },
+            "style": "primary",
+            "color": "#C48888"
           },
           {
             "type": "button",
             "action": {
               "type": "uri",
               "label": "加我line",
-              "uri": "http://linecorp.com/"
-            }
+              "uri": "https://line.me/D"
+            },
+            "style": "primary",
+            "color": "#B87070"
           },
           {
             "type": "button",
@@ -53,7 +57,9 @@
               "type": "uri",
               "label": "個人簡介",
               "uri": "https://conceptionseo.com/wp-content/uploads/2021/01/chloe-個人簡介.png"
-            }
+            },
+            "style": "primary",
+            "color": "#AD5A5A"
           }
         ]
       }
@@ -94,7 +100,9 @@
               "type": "uri",
               "label": "公司網站",
               "uri": "https://conceptionseo.com/"
-            }
+            },
+            "style": "primary",
+            "color": "#C48888"
           },
           {
             "type": "button",
@@ -102,7 +110,9 @@
               "type": "uri",
               "label": "粉絲專頁",
               "uri": "https://www.facebook.com/B2Bemarketing"
-            }
+            },
+            "style": "primary",
+            "color": "#B87070"
           }
         ]
       }
@@ -125,8 +135,11 @@
             "size": "sm"
           },
           {
-            "type": "image",
-            "url": "https://drive.google.com/file/d/1751CqPU1vIHU_3WTuWhVFmvlcGkpk5iJ/view"
+            "type": "text",
+            "contents": [],
+            "flex": 2,
+            "wrap": true,
+            "text": "台灣人骨子裡的行銷實例 \n🌟商品快速建立與上架🌟 \n🌟同步串流及影像處理🌟 \n🌟導購頁面 + 整合數據報表🌟"
           }
         ]
       },
@@ -137,10 +150,22 @@
           {
             "type": "button",
             "action": {
-              "type": "message",
+              "type": "uri",
+              "label": "ShopTube介紹",
+              "uri": "https://drive.google.com/file/d/1751CqPU1vIHU_3WTuWhVFmvlcGkpk5iJ/view"
+            },
+            "color": "#C48888",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
               "label": "官方IG帳號",
-              "text": "敬請期待"
-            }
+              "uri": "https://www.instagram.com/hsuan.chloe/"
+            },
+            "style": "primary",
+            "color": "#B87070"
           },
           {
             "type": "button",
@@ -148,7 +173,9 @@
               "type": "uri",
               "label": "臉書社團",
               "uri": "https://www.facebook.com/groups/291646425160045"
-            }
+            },
+            "style": "primary",
+            "color": "#AD5A5A"
           }
         ]
       }
