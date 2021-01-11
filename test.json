@@ -46,8 +46,8 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "加我line",
-              "uri": "https://line.me/D"
+              "label": "加Chloe的Line",
+              "uri": "https://line.me/ti/p/kqLGBGhpxw"
             },
             "style": "primary",
             "color": "#B87070",
@@ -121,6 +121,18 @@
             "color": "#B87070",
             "height": "sm",
             "margin": "md"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "中小企業互助社團",
+              "uri": "https://www.facebook.com/groups/291646425160045"
+            },
+            "style": "primary",
+            "color": "#AD5A5A",
+            "margin": "md",
+            "height": "sm"
           }
         ]
       }
@@ -182,8 +194,8 @@
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "臉書社團",
-              "uri": "https://www.facebook.com/groups/291646425160045"
+              "label": "分享給好友",
+              "uri": "https://lin.ee/rRBj9MV"
             },
             "style": "primary",
             "color": "#AD5A5A",
