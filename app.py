@@ -56,15 +56,23 @@ def handle_follow(event):
         )
 
 
-# @handler.add(MessageEvent, message=TextMessage)
-# def handle_message(event):
-#     line_bot_api.reply_message(
-#         event.reply_token,
-#         TextSendMessage(text=event.message.text))
+@handler.add(MessageEvent, message=TextMessage)
+def handle_message(event):
+    if event.message.text == 'test-for-concurrency':
+        with open('./test.json', 'r', encoding='utf-8') as f:
+            json_dict = json.load(f)
+            flex_message = FlexSendMessage(
+                alt_text='hello',
+                contents=CarouselContainer.new_from_json_dict(json_dict)
+            )
+            line_bot_api.reply_message(
+                event.reply_token,
+                flex_message
+            )
 
 
 # if __name__ == "__main__":
 #     app.run()
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=os.environ['PORT'])
+# if __name__ == "__main__":
+#     app.run(host='0.0.0.0', port=os.environ['PORT'])
