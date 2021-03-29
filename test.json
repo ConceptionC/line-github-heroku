@@ -193,9 +193,9 @@
           {
             "type": "button",
             "action": {
-              "type": "uri",
+              "type": "message",
               "label": "分享給好友",
-              "uri": "https://lin.ee/rRBj9MV"
+              "text": "https://lin.ee/rRBj9MV <br/>請複製此網址，可將電子名片分享給其他好友哦！"
             },
             "style": "primary",
             "color": "#AD5A5A",
